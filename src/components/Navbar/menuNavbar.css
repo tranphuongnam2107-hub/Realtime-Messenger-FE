@@ -1,0 +1,55 @@
+::root {
+  --bg-main: #24BAA1;
+  --bg-hover: #E0F4F0;
+  --txt-main: #010101;
+  --txt-light: #C1C3D1;
+}
+
+.nav-item {
+  border-radius: 1px;
+  transition: 0.15s ease;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-item img {
+  object-fit: contain;
+  object-position: center;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.nav-item:hover {
+  border-radius: 10px;
+  background: #E0F4F0;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 0;
+  /* hiện bên dưới icon */
+  left: 110%;
+  background: #C1C3D1;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+.nav-item:hover .tooltip {
+  opacity: 1;
+}
+
+/* highlight when focus page  */
+.nav-item.highlight-page {
+  border-radius: 10px;
+  background: #E0F4F0;
+}

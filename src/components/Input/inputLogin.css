@@ -1,0 +1,14 @@
+
+.input-login {
+    margin-bottom: 16px;
+    height: 60px;
+}
+
+.input-login input {
+    height: 100%;
+    padding: 1rem;
+}
+
+.input-login label {
+    padding: 0 1rem;
+}
