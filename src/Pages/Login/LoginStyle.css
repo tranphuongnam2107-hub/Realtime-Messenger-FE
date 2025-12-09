@@ -1,0 +1,19 @@
+::root{
+    --bg-main: #24BAA1;
+    --txt-main: #010101;
+    --txt-light: #C1C3D1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    background-image: url('../../assets/images/soft-login-bg.jpg');
+}
+.login-wrapper{
+    width: 60%;
+    border: none;
+}

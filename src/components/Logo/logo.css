@@ -1,0 +1,50 @@
+
+a.logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar-tooltip {
+  position: absolute;
+  bottom: 110%;       
+  left: 180%;          
+  transform: translateX(-50%) translateY(-8px);
+  color: #010101;
+  border-radius: 6px;
+  white-space: nowrap;
+  z-index: 100;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.avatar-tooltip a {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    transition: 0.15s ease;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.avatar-tooltip a:hover {
+    background: #E0F4F0;
+}
+.avatar-tooltip a img {
+  width: 24px;   /* chỉnh size nhỏ lại */
+  height: 24px;
+  object-fit: contain;
+}
